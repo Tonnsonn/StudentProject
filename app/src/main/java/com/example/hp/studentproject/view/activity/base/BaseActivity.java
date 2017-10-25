@@ -1,13 +1,15 @@
-package com.example.hp.studentproject;
+package com.example.hp.studentproject.view.activity.base;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.hp.studentproject.R;
+
+public class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_base);
     }
 }
